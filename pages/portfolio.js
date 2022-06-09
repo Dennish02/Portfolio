@@ -14,7 +14,8 @@ export default function Portfolio() {
             <h1>My Proyects</h1>
           <div className='contenedor-pages'>
               <div className='contenedor-pagesElemento'>
-              <a target="_blank" rel="noreferrer" href={bore} >
+
+              <a target="_blank"  rel="noreferrer" href={bore}  >
                   <Image
                       width={384}
                       height={216}
@@ -24,7 +25,8 @@ export default function Portfolio() {
               <p>Boré Mobiliarios</p>
               </div>
               <div className='contenedor-pagesElemento'>
-              <a target="_blank" rel="noreferrer" href={nft} >
+              <a  target="_blank" rel="noreferrer" href={nft}  >
+
                   <Image
                       width={384}
                       height={216}
@@ -34,7 +36,8 @@ export default function Portfolio() {
               <p>NFT Market</p>
               </div>
               <div className='contenedor-pagesElemento'>
-              <a target="_blank" rel="noreferrer" href={paises} >
+
+              <a target="_blank" rel="noreferrer" href={paises}  >
                   <Image
                       width={384}
                       height={216}
@@ -44,7 +47,8 @@ export default function Portfolio() {
               <p>Countries App</p>
               </div>
               <div className='contenedor-pagesElemento'>
-              <a target="_blank" rel="noreferrer" href={festival} >
+
+              <a target="_blank" rel="noreferrer" href={festival}  >
                   <Image
                       width={384}
                       height={216}
@@ -54,7 +58,9 @@ export default function Portfolio() {
               <p>Festival Mísica</p>
               </div>
               <div className='contenedor-pagesElemento'>
-              <a target="_blank" rel="noreferrer" href={blog} >
+
+              <a target="_blank" rel="noreferrer" href={blog}  >
+
                   <Image
                       width={384}
                       height={216}
