@@ -15,13 +15,13 @@ const Navbar = () => {
     <>
         <div className="navbar">
             {pasos.map(paso => (
-                <button key={paso.paso}
+                <p key={paso.paso}
                 className='navbarElemento'
                 onClick={()=>{
                     router.push(paso.url)
                 }}>
                     {paso.nombre}
-                </button>
+                </p>
             ))}
         </div>
     </>

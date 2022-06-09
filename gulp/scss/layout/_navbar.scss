@@ -12,13 +12,14 @@
         writing-mode: vertical-rl;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-evenly;
+        //justify-content: space-evenly;
+        background-color: v.$amarillo;
         .navbarElemento{
+            text-align: center;
             width: 100%;
             height: 100%;
             border: none;
             padding: 0 1rem;
-            background-color: v.$amarillo;
             color: v.$grisoscuro;
             font-weight: bold;
             &:hover{
