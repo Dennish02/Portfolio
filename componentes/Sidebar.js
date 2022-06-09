@@ -33,11 +33,12 @@ export default function Sidebar() {
         
     </div>
       <div className='iconos'>
-        <a target="_blank" rel="noreferrer" href='https://github.com/Dennish02'>
+
+        <a rel="noreferrer" target="_blank" href='https://github.com/Dennish02' >
         <i className="devicon-github-original icon "></i>
         </a>
       
-      <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/dennishesler/' >
+      <a  rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/dennishesler/'>
       <i class="devicon-linkedin-plain icon"></i>
       </a>
      
