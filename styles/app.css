@@ -516,3 +516,12 @@ img {
   font-size: 50px;
   color: #e1e1e1;
 }
+
+.contFooter {
+  border-top: solid 1px #e1e1e1;
+  text-align: center;
+  margin-top: 2rem;
+}
+.contFooter p {
+  font-size: 1.5rem;
+}

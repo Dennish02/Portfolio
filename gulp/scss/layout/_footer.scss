@@ -1,0 +1,12 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.contFooter{
+    border-top: solid 1px v.$grisclaro;
+    text-align: center;
+    margin-top: 2rem;
+    p{
+        font-size: 1.5rem;
+    }   
+    
+}

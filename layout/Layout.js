@@ -1,6 +1,7 @@
 import  Head  from 'next/head'
 
 import React from 'react'
+import Footer from '../componentes/Footer'
 import Navbar from '../componentes/Navbar'
 import Sidebar from '../componentes/Sidebar'
 
@@ -15,6 +16,7 @@ export default function Layout({children}) {
             <Sidebar/>
               <main className='contenido'>
                 {children}
+            <Footer/>
               </main>
               <div className='contNavbar'>
                   <Navbar />
