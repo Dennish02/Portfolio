@@ -1,7 +1,10 @@
 
+import { Head } from 'next/head'
 import Image from 'next/image'
 export default function Sidebar() {
   return (
+    <>
+     
     <aside className='perfil'>
     <Image
     src='/assets/image/hesler.png'
@@ -47,5 +50,6 @@ export default function Sidebar() {
       
       
     </aside>
+    </>
   )
 }

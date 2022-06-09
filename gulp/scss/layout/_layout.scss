@@ -1,5 +1,8 @@
 @use '../base/variables' as v;
 
+::-webkit-scrollbar {
+    display: none;
+  }
 .estructura{
     position: relative;
     display: flex;
@@ -13,5 +16,6 @@
         width: 65%;
         margin: 0 auto;
     }
+    
 }
 

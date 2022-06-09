@@ -8,23 +8,15 @@ export default function Layout({children}) {
   return (
     <>
     <Head>
-        <title> Hesler Dennis</title>
-        <meta name='description' content='Portfolio Hesler Dennis'/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet"/> 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-          
+    <title> Hesler Dennis</title>
+    <meta name='description' content='Portfolio Hesler Dennis'/>      
     </Head>
     <section className='estructura'>
             <Sidebar/>
               <main className='contenido'>
                 {children}
               </main>
-              <div className='cont-Navbar'>
+              <div className='contNavbar'>
                   <Navbar />
 
               </div>

@@ -386,6 +386,10 @@ img {
   display: block;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .estructura {
   position: relative;
   display: flex;
@@ -401,10 +405,10 @@ img {
   margin: 0 auto;
 }
 
-.cont-Navbar {
+.contNavbar {
   width: 50px;
 }
-.cont-Navbar .navbar {
+.contNavbar .navbar {
   width: 100%;
   height: 100vh;
   transform: rotate(180deg);
@@ -413,7 +417,7 @@ img {
   flex-direction: row-reverse;
   background-color: #e6ba44;
 }
-.cont-Navbar .navbar .navbarElemento, .cont-Navbar .navbar .seleccionado {
+.contNavbar .navbar .navbarElemento, .contNavbar .navbar .seleccionado {
   text-align: center;
   width: 100%;
   height: 100%;
@@ -422,10 +426,10 @@ img {
   color: #252526;
   font-weight: bold;
 }
-.cont-Navbar .navbar .navbarElemento:hover, .cont-Navbar .navbar .seleccionado:hover {
+.contNavbar .navbar .navbarElemento:hover, .contNavbar .navbar .seleccionado:hover {
   cursor: pointer;
 }
-.cont-Navbar .navbar .seleccionado {
+.contNavbar .navbar .seleccionado {
   background-color: #f9e8ba;
 }
 
