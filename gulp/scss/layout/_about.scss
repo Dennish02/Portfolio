@@ -1,0 +1,15 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.TechnicalSkills{
+    width: 100%;
+    @include m.grid(4, 2rem);
+    p{
+        background-color: v.$grisclaro;
+        color: v.$grisoscuro;
+        padding: 1rem;
+        @include m.borderRadius;
+        text-align: center;
+        margin: 0;
+    }
+}
