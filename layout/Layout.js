@@ -24,12 +24,12 @@ export default function Layout({children}) {
               <main className='contenido'>
                 {children}
               </main>
-             
-    </section>
-            <div className='cont-Navbar'>
+              <div className='cont-Navbar'>
                   <Navbar />
 
               </div>
+    </section>
+           
     </>
   )
 }
