@@ -401,10 +401,13 @@ img {
   margin: 0 auto;
 }
 
-.navbar {
+.cont-Navbar {
   position: absolute;
   right: 0;
   top: 0;
+  width: 50px;
+}
+.cont-Navbar .navbar {
   height: 100vh;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
@@ -412,7 +415,7 @@ img {
   flex-direction: row-reverse;
   justify-content: space-evenly;
 }
-.navbar .navbarElemento, .navbar .seleccionado {
+.cont-Navbar .navbar .navbarElemento, .cont-Navbar .navbar .seleccionado {
   width: 100%;
   height: 100%;
   border: none;
@@ -421,10 +424,10 @@ img {
   color: #252526;
   font-weight: bold;
 }
-.navbar .navbarElemento:hover, .navbar .seleccionado:hover {
+.cont-Navbar .navbar .navbarElemento:hover, .cont-Navbar .navbar .seleccionado:hover {
   cursor: pointer;
 }
-.navbar .seleccionado {
+.cont-Navbar .navbar .seleccionado {
   background-color: #f9e8ba;
 }
 
