@@ -7,33 +7,33 @@ export default function About() {
       <article>
         <p>
         <h3>Who I am? </h3> 
-          🔸 Full Stack Developer with the ability to develop 
-          projects both in the FrontEnd and in the BackEnd, always 
-          keeping in mind that codes can be scaled and reused to 
-          speed up team development.
+          🔸I'm a Full Stack Developer and have the ability 
+          to develop projects from both areas like Frontend or
+           Backend, always keeping in mind that codes can be scaled 
+           and reused to speed up team development.
 
         </p>
         <p>
-        <h3> What do I have?</h3>
-          🔸I am a person very committed to the activity to be 
-          developed, I like challenges and new learning to increase 
-          professional knowledge and give the best in everything 
-          to be developed, I am punctual and reliable. I adapt very 
-          well to changes and different work environments, I have 
-          the ability to resolve situations that are involved with 
-          the activities to be developed. I have experience managing 
-          teams.
+          <h3> What do I have?</h3>
+          🔸I am very commit with all activities or projects proposed
+          in a development environment,  I like challenges and eager for
+          new learning to increase my professional knowledge to improving
+          my work and the team where I belong to, I am punctual person and reliable.
+
+          Have experience managing teams, easily adaptable to
+          changes and different work environments and have the ability
+          to resolve situations to be fixed.
 
         </p>
         <p>
-        <h3>That I can contribute?</h3>  
-          🔸If we have the pleasure of working together, 
-          you will know that I always seek to streamline teamwork, 
-          building tools that facilitate and help all members 
-          to carry out an activity in less time, I face problems 
-          as challenges and I am committed to solving them. I know 
-          how to ask for advice, receive corrections and thus also 
-          contribute them.
+          <h3>That I can contribute?</h3>
+          🔸If we have the pleasure of working together,
+          you will know that I always seek to improve the teamwork,
+          building tools that allow facilitate and help all members to carry
+          out an activity more effectively.
+          I consider that I can face every problems like challenges that arise and
+          I know that I can solve  and acomplish them. Additionally Im open minded
+          about to ask for advice, receive corrections and give constructive feedback too
 
         </p>
 
