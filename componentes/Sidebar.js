@@ -14,7 +14,7 @@ export default function Sidebar() {
     />
     <div className='perfil-texto'>
         <h2>Hi there!</h2>
-        <h3>I'm <span className='nombre'>Hesler Dennis</span></h3>
+        <h3>I'm <span className='nombre'>Dennis Hesler</span></h3>
         <p className='carrera'>Full Stack Developer</p>
         <div className='ubicacion'>
           <svg xmlns="http://www.w3.org/2000/svg"

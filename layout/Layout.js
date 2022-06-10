@@ -9,7 +9,7 @@ export default function Layout({children}) {
   return (
     <>
     <Head>
-    <title> Hesler Dennis</title>
+    <title>Dennis Hesler</title>
     <meta name='description' content='Portfolio Hesler Dennis'/>      
     </Head>
     <section className='estructura'>
