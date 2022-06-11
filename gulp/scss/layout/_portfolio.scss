@@ -1,6 +1,11 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
+.enlace{
+    width: 100%;
+    margin: 0 auto;
+}
+
 @include m.telefono{
     .contenedor-pages{
         display: block;
@@ -20,6 +25,7 @@
             margin: 0 auto;
 
             img {
+                
                 &:hover {
                     transition: 0.4s;
                     transform: scale(1.05);

@@ -468,6 +468,11 @@ img {
     background-color: #f9e8ba;
   }
 }
+.enlace {
+  width: 100%;
+  margin: 0 auto;
+}
+
 @media (min-width: 320px) {
   .contenedor-pages {
     display: block;
