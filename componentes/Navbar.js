@@ -7,7 +7,7 @@ const pasos = [
     {paso: 2, nombre: 'Portfolio', url:'/portfolio'},
     {paso: 3, nombre: 'Contacto', url:'/contacto'},
 ]
-
+let seleccionado;
 const Navbar = () => {
     const router = useRouter()
    
@@ -16,9 +16,10 @@ const Navbar = () => {
         <div className="navbar">
             {pasos.map(paso => (
                 <p key={paso.paso}
-                className='navbarElemento'
+                className= {`${seleccionado === paso.paso ? 'seleccionado': 'navbarElemento'} `}
                 onClick={()=>{
                     router.push(paso.url)
+                    seleccionado = paso.paso
                 }}>
                     {paso.nombre}
                 </p>

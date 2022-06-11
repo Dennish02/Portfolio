@@ -5,25 +5,23 @@ import Footer from '../componentes/Footer'
 import Navbar from '../componentes/Navbar'
 import Sidebar from '../componentes/Sidebar'
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <>
-    <Head>
-    <title>Dennis Hesler</title>
-    <meta name='description' content='Portfolio Hesler Dennis'/>      
-    </Head>
-    <section className='estructura'>
-            <Sidebar/>
-              <main className='contenido'>
-                {children}
-            <Footer/>
-              </main>
-              <div className='contNavbar'>
-                  <Navbar />
-
-              </div>
-    </section>
-           
+      <Head>
+        <title>Dennis Hesler</title>
+        <meta name="description" content="Portfolio Hesler Dennis" />
+      </Head>
+      <section className="estructura">
+        <Sidebar />
+        <main className="contenido">
+          {children}
+          <Footer />
+        </main>
+        <div className="contNavbar">
+          <Navbar />
+        </div>
+      </section>
     </>
-  )
+  );
 }

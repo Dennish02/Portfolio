@@ -1,16 +1,15 @@
-import React from 'react'
 
 export default function About() {
   return (
     <div>
-       <h1>ABOUT ME</h1>
+      <h1>ABOUT ME</h1>
       <article>
         <p>
-        <h3>Who I am? </h3> 
-          🔸I'm a Full Stack Developer and have the ability 
+          <h3>Who I am? </h3>
+          🔸I'm a Full Stack Developer and have the ability
           to develop projects from both areas like Frontend or
-           Backend, always keeping in mind that codes can be scaled 
-           and reused to speed up team development.
+          Backend, always keeping in mind that codes can be scaled
+          and reused to speed up team development.
 
         </p>
         <p>
@@ -38,36 +37,36 @@ export default function About() {
         </p>
 
       </article>
-        <h2>Technical Skills</h2>
-        <div className='TechnicalSkills'>
-          <p>CSS3</p>
-          <p>HTML5</p>
-          <p>React.js</p>
-          <p>Redux</p>
-          <p>Next.js</p>
-          <p>JavaScript</p>
-          <p>SQL</p>
-          <p>Git</p>
-          <p>Sass</p>
-          <p>Gulp</p>
-          <p>JWT</p>
-          <p>PostgresSQL</p>
-          <p>Express.js</p>
-          <p>MongoDb</p>
-          <p>Illustrator</p>
-          <p>Photoshop</p>
-        </div>
-        <h2>Soft Skill</h2>
-        <div className='TechnicalSkills'>
-          <p>Dedication</p>
-          <p>Multitasking</p>
-          <p>Flexibility</p>
-          <p>Scrum</p>
-          <p>Autodidact</p>
-          <p>Team Player</p>
-          <p>Problem Solving</p>
-          <p>Comunication</p>
-        </div>
+      <h2>Technical Skills</h2>
+      <div className='TechnicalSkills'>
+        <p>CSS3</p>
+        <p>HTML5</p>
+        <p>React.js</p>
+        <p>Redux</p>
+        <p>Next.js</p>
+        <p>JavaScript</p>
+        <p>SQL</p>
+        <p>Git</p>
+        <p>Sass</p>
+        <p>Gulp</p>
+        <p>JWT</p>
+        <p>PostgresSQL</p>
+        <p>Express.js</p>
+        <p>MongoDb</p>
+        <p>Illustrator</p>
+        <p>Photoshop</p>
+      </div>
+      <h2>Soft Skill</h2>
+      <div className='TechnicalSkills'>
+        <p>Dedication</p>
+        <p>Multitasking</p>
+        <p>Flexibility</p>
+        <p>Scrum</p>
+        <p>Autodidact</p>
+        <p>Team Player</p>
+        <p>Problem Solving</p>
+        <p>Comunication</p>
+      </div>
     </div>
   )
 }

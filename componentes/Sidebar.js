@@ -42,7 +42,7 @@ export default function Sidebar() {
         </a>
       
       <a  rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/dennishesler/'>
-      <i class="devicon-linkedin-plain icon"></i>
+      <i className="devicon-linkedin-plain icon"></i>
       </a>
      
           
