@@ -7,7 +7,7 @@ const pasos = [
     {paso: 2, nombre: 'Portfolio', url:'/portfolio'},
     {paso: 3, nombre: 'Contacto', url:'/contacto'},
 ]
-let seleccionado;
+let seleccionado = 1;
 const Navbar = () => {
     const router = useRouter()
    

@@ -9,30 +9,34 @@
 }
 
 
-@include m.desktop{
-    .contenedor-pages{
+@include m.desktop {
+    .contenedor-pages {
         @include m.grid(2, 2rem);
         margin: 0 auto;
+
         .contenedor-pagesElemento {
             @include m.borderRadius;
             padding: 1rem;
             margin: 0 auto;
+
             img {
-                &:hover{
+                &:hover {
                     transition: 0.4s;
                     transform: scale(1.05);
-                   
+
                 }
             }
-            p{
+
+            p {
                 font-size: 1.2rem;
             }
-            &:hover{
+
+            &:hover {
                 background-color: v.$grisoscuro;
             }
-           
-            
+
+
         }
-        
+
     }
 }

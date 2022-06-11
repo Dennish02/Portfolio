@@ -14,13 +14,14 @@ export default function Layout({ children }) {
       </Head>
       <section className="estructura">
         <Sidebar />
+        <div className="contNavbar">
+          <Navbar />
+        </div>
         <main className="contenido">
           {children}
           <Footer />
         </main>
-        <div className="contNavbar">
-          <Navbar />
-        </div>
+        
       </section>
     </>
   );

@@ -4,16 +4,18 @@ export default function About() {
     <div>
       <h1>ABOUT ME</h1>
       <article>
+      <h3>Who I am? </h3>
         <p>
-          <h3>Who I am? </h3>
+          
           🔸I'm a Full Stack Developer and have the ability
           to develop projects from both areas like Frontend or
           Backend, always keeping in mind that codes can be scaled
           and reused to speed up team development.
 
         </p>
+        <h3> What do I have?</h3>
         <p>
-          <h3> What do I have?</h3>
+         
           🔸I am very commit with all activities or projects proposed
           in a development environment,  I like challenges and eager for
           new learning to increase my professional knowledge to improving
@@ -24,8 +26,9 @@ export default function About() {
           to resolve situations to be fixed.
 
         </p>
+        <h3>That I can contribute?</h3>
         <p>
-          <h3>That I can contribute?</h3>
+          
           🔸If we have the pleasure of working together,
           you will know that I always seek to improve the teamwork,
           building tools that allow facilitate and help all members to carry

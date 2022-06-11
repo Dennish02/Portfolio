@@ -1,17 +1,16 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
+
 
 .contNavbar{
-    // position: absolute;
-    // right: 0;
-    // top: 0;
-    width: 50px;
+    width: 100%;
     .navbar{
         width: 100%;
-        height: 100vh;
-        transform: rotate(180deg);
-        writing-mode: vertical-rl;
+       // height: 100vh;
+        //transform: rotate(180deg);
+        //writing-mode: vertical-rl;
         display: flex;
-        flex-direction: row-reverse;
+        //flex-direction: row-reverse;
         //justify-content: space-evenly;
         background-color: v.$amarillo;
         .navbarElemento{
@@ -19,7 +18,8 @@
             width: 100%;
             height: 100%;
             border: none;
-            padding: 0 1rem;
+            padding:  1rem;
+            margin: 0;
             color: v.$grisoscuro;
             font-weight: bold;
             &:hover{
@@ -33,3 +33,37 @@
     }
 }
 
+@include m.desktop{
+    .contNavbar{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        .navbar{
+            width: 100%;
+            height: 100vh;
+            transform: rotate(180deg);
+            writing-mode: vertical-rl;
+            display: flex;
+            flex-direction: row-reverse;
+            //justify-content: space-evenly;
+            background-color: v.$amarillo;
+            .navbarElemento{
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                border: none;
+                padding: 0 1rem;
+                color: v.$grisoscuro;
+                font-weight: bold;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .seleccionado{
+                @extend .navbarElemento;
+                background-color: v.$amarilloClaro;
+            }
+        }
+    }
+}
