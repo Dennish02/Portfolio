@@ -70,6 +70,15 @@ export default function About() {
         <p>Problem Solving</p>
         <p>Comunication</p>
       </div>
+      <h2>Studying</h2>
+      <div className='TechnicalSkills'>
+        <p>PHP</p>
+        <p>TypeScript</p>
+        <p>GraphQL</p>
+        <p>Testing</p>
+        <p>Autodidact</p>
+        <p>Laravel</p>
+      </div>
     </div>
   )
 }

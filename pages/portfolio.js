@@ -11,7 +11,7 @@ export default function Portfolio() {
     const paises = 'https://www.linkedin.com/feed/update/urn:li:activity:6925549071818457088/'
   return (
     <Layout>
-            <h1>My Proyects</h1>
+            <h1>My Projects</h1>
           <div className='contenedor-pages'>
               <div className='contenedor-pagesElemento'>
 
@@ -55,7 +55,7 @@ export default function Portfolio() {
                       src='/assets/image/festival.png'
                   />
               </a>   
-              <p>Festival Mísica</p>
+              <p>Festival Música</p>
               </div>
               <div className='contenedor-pagesElemento'>
 

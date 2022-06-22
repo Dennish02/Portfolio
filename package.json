@@ -20,6 +20,15 @@
   "devDependencies": {
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.11",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.49.0"
   }
 }
