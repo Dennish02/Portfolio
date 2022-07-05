@@ -48,6 +48,7 @@ export default function About() {
         <p>Redux</p>
         <p>Next.js</p>
         <p>JavaScript</p>
+        <p>PHP</p>
         <p>SQL</p>
         <p>Git</p>
         <p>Sass</p>
@@ -72,11 +73,11 @@ export default function About() {
       </div>
       <h2>Studying</h2>
       <div className='TechnicalSkills'>
-        <p>PHP</p>
+        
         <p>TypeScript</p>
         <p>GraphQL</p>
         <p>Testing</p>
-        <p>Autodidact</p>
+        <p>MySQL</p>
         <p>Laravel</p>
       </div>
     </div>
