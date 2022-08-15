@@ -50,10 +50,12 @@ export default function About() {
         <p>JavaScript</p>
         <p>PHP</p>
         <p>SQL</p>
+        <p>MySQL</p>
         <p>Git</p>
         <p>Sass</p>
         <p>Gulp</p>
         <p>JWT</p>
+        <p>Firebase</p>
         <p>PostgresSQL</p>
         <p>Express.js</p>
         <p>MongoDb</p>
@@ -72,12 +74,11 @@ export default function About() {
         <p>Comunication</p>
       </div>
       <h2>Studying</h2>
-      <div className='TechnicalSkills'>
-        
+      <div className='TechnicalSkills'>        
         <p>TypeScript</p>
+        <p>Docker</p>
         <p>GraphQL</p>
         <p>Testing</p>
-        <p>MySQL</p>
         <p>Laravel</p>
       </div>
     </div>
