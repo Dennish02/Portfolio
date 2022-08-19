@@ -77,6 +77,7 @@ export default function About() {
       <div className='TechnicalSkills'>        
         <p>TypeScript</p>
         <p>Docker</p>
+        <p>React Native</p>
         <p>GraphQL</p>
         <p>Testing</p>
         <p>Laravel</p>
