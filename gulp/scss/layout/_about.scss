@@ -1,29 +1,23 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
-// .TechnicalSkills{
-    
-//     p {
-//             background-color: v.$grisclaro;
-//             color: v.$grisoscuro;
-//             padding: 1rem;
-//             @include m.borderRadius;
-//             text-align: center;
-//             margin: 0;
-//         }
-// }
 
-    .TechnicalSkills{
-       width: 95%;
-       margin: 0 auto;
-       @include m.mediaGrid(200px, 2rem);
-        p {
-                background-color: v.$grisclaro;
-                color: v.$grisoscuro;
-                padding: 1rem;
-                @include m.borderRadius;
-                text-align: center;
-                margin: 0;
-            }
+.TechnicalSkills {
+    width: 95%;
+    margin: 0 auto;
+    @include m.mediaGrid(200px, 2rem);
+
+    p {
+        background-color: v.$rojo;
+        color: v.$grisclaro;
+        font-weight: 700;
+        padding: 1rem;
+        @include m.borderRadius;
+        text-align: center;
+        margin: 0;
     }
-  
+}
+
+.preguntas {
+    color: v.$amarillo;
+}

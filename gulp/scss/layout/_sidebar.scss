@@ -13,12 +13,19 @@
         align-items: center;
         background-color: v.$grisoscuro;
         .perfil-texto{
-            width: 90%;
+            width: 70%;
             margin: 0 auto;
             text-align: left;
         }
+        .nombre{
+            font-size: 3.6rem;
+        }
+        .carrera{
+            font-size: 2.5rem;
+        }
         .nombre, .carrera{
             color: v.$amarillo;
+            
         }
         .ubicacion{
             display: flex;
@@ -27,12 +34,11 @@
             gap: 0.5rem;
         }
         .iconos{
-            width: 100%;
+            width: 60%;
             height: 60px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            justify-content: space-evenly;
+            display: flex;         
+            justify-content: flex-start;
+            gap: 2rem;
             .icon {
                font-size:  50px;
                 color: v.$grisclaro;

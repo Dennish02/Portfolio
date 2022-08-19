@@ -41,6 +41,8 @@ a{
 }  
 p{
     margin: 1rem 0;
+    
+    letter-spacing:1.5px;
 }
 .a {
     text-decoration: none;
@@ -52,7 +54,7 @@ p{
 
 h1 {
     font-size: 4rem;
-    color: v.$rojo;
+    color: v.$amarillo;
 }
 h2 {
     font-size: 3.6rem;

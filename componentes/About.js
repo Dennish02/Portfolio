@@ -4,7 +4,7 @@ export default function About() {
     <div>
       <h1>ABOUT ME</h1>
       <article>
-      <h3>Who I am? </h3>
+      <h3 className="preguntas">Who I am? </h3>
         <p>
           
           🔸I'm a Full Stack Developer and have the ability
@@ -13,7 +13,7 @@ export default function About() {
           and reused to speed up team development.
 
         </p>
-        <h3> What do I have?</h3>
+        <h3 className="preguntas"> What do I have?</h3>
         <p>
          
           🔸I am very commit with all activities or projects proposed
@@ -26,7 +26,7 @@ export default function About() {
           to resolve situations to be fixed.
 
         </p>
-        <h3>That I can contribute?</h3>
+        <h3 className="preguntas">That I can contribute?</h3>
         <p>
           
           🔸If we have the pleasure of working together,
