@@ -65,7 +65,7 @@
             .seleccionado{
                 @extend .navbarElemento;
                 background-color: v.$amarillo;
-                text-shadow:  1px 1px 2px v.$rojo;
+                text-shadow:  1px 1px 2px v.$amarilloClaro;
             }
         }
     }
