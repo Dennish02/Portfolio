@@ -16,6 +16,12 @@
             width: 70%;
             margin: 0 auto;
             text-align: left;
+            .hola{
+                color: v.$grisclaro;
+            }
+            .ubi{
+                color: v.$grisclaro;
+            }
         }
         .nombre{
             font-size: 3.6rem;
@@ -23,16 +29,18 @@
         }
         .carrera{
             font-size: 2.5rem;
+            color: v.$grisclaro;
         }
-        .nombre, .carrera{
-            color: v.$amarillo;
+        // .nombre, .carrera{
+        //     color: v.$amarillo;
             
-        }
+        // }
         .ubicacion{
             display: flex;
             align-items: baseline;
             justify-content: left;
             gap: 0.5rem;
+           
         }
         .iconos{
             width: 60%;

@@ -22,7 +22,7 @@ export default function Portfolio() {
                       src='/assets/image/bore1.png'
                   />
               </a>
-              <p>Boré Mobiliarios</p>
+              <p className='subtitulo'>Boré Mobiliarios</p>
               </div>
               <div className='contenedor-pagesElemento'>
               <a className='enlace' target="_blank" rel="noreferrer" href={nft}  >
@@ -33,7 +33,7 @@ export default function Portfolio() {
                       src='/assets/image/nft.png'
                   />
               </a>
-              <p>NFT Market</p>
+              <p className='subtitulo'>NFT Market</p>
               </div>
               <div className='contenedor-pagesElemento'>
 
@@ -44,7 +44,7 @@ export default function Portfolio() {
                       src='/assets/image/paises.png'
                   />
               </a>
-              <p>Countries App</p>
+              <p className='subtitulo'>Countries App</p>
               </div>
               <div className='contenedor-pagesElemento'>
 
@@ -55,7 +55,7 @@ export default function Portfolio() {
                       src='/assets/image/festival.png'
                   />
               </a>   
-              <p>Festival Música</p>
+              <p className='subtitulo'>Festival Música</p>
               </div>
               <div className='contenedor-pagesElemento'>
 
@@ -67,7 +67,7 @@ export default function Portfolio() {
                       src='/assets/image/cafe.png'
                   />
               </a>  
-              <p>Blog Café</p>
+              <p className='subtitulo'>Blog Café</p>
               </div>
             
              

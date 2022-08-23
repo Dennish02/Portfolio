@@ -131,7 +131,7 @@
 }
 
 @mixin error {
-  color: v.$rojo;
+  color: v.$azulOscuro;
 }
 
 @mixin input {
@@ -144,7 +144,7 @@
 }
 
 @mixin inputError {
-  border: 3px solid v.$rojo;
+  border: 3px solid v.$azulOscuro;
 }
 
 @mixin buttonTrade {
@@ -195,9 +195,9 @@
   height: 10px;
 }
 
-@mixin buttonRojo {
+@mixin buttonazulOscuro {
   width: fit-content;
-  background-color: v.$rojo;
+  background-color: v.$azulOscuro;
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
@@ -208,7 +208,7 @@
   margin: 1rem auto;
   &:hover {
     cursor: pointer;
-    background: darken(v.$rojo, 25%)
+    background: darken(v.$azulOscuro, 25%)
     
   }
 }

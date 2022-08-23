@@ -1,12 +1,15 @@
 $fuente_principal: 'Roboto', monospace;
-$fondo: #252526;
+
+$fondo: #fcf4f4;
+// $fondo: linear-gradient(90deg, rgb(79, 106, 202) 39%, rgb(129, 143, 230) 100%);
 $amarillo: #EEAD35 ;
-$amarilloClaro: #6E6E70;
+$amarilloClaro: #362f6d;
 $turquezza: #630cb4;
 // $amarilloClaro: #E8EEF2;
-$grisoscuro: #555152;
+$grisoscuro: #1b1835;
 $grisclaro: #e1e1e1;
-$rojo: #0A0A0C;
+$grisOpaco: #b9b9b9;
+$azulOscuro: #0A0A0C;
 //tamaños media queris
 $telefono: 320px;
 $tablet: 570px;

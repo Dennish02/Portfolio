@@ -11,10 +11,10 @@ html {
     box-sizing: inherit;
 }
 body {
-    background-color: v.$fondo;
+    background: v.$fondo;
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
-    color: v.$grisclaro;
+    color: v.$azulOscuro;
     &.fijar-body {
         overflow: hidden;
     }
@@ -54,11 +54,11 @@ p{
 
 h1 {
     font-size: 4rem;
-    color: v.$amarillo;
+    color: v.$azulOscuro;
 }
 h2 {
     font-size: 3.6rem;
-    color: v.$amarillo;
+    color: v.$azulOscuro;
     margin: 2rem 0; 
 }
 h3 {
@@ -71,4 +71,7 @@ img {
     width: 100%;
     height: auto;
     display: block;
+}
+.enlaces{
+    color: v.$grisoscuro;
 }

@@ -8,7 +8,8 @@
     @include m.mediaGrid(200px, 2rem);
 
     p {
-        background-color: v.$rojo;
+        background-color: v.$grisoscuro;
+        box-shadow: 3px 6px 14px 0px rgba(58,58,58,0.36);
         color: v.$grisclaro;
         font-weight: 700;
         padding: 1rem;
@@ -19,5 +20,5 @@
 }
 
 .preguntas {
-    color: v.$amarillo;
+    color: v.$azulOscuro;
 }

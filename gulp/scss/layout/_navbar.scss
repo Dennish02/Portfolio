@@ -6,12 +6,7 @@
     width: 100%;
     .navbar{
         width: 100%;
-       // height: 100vh;
-        //transform: rotate(180deg);
-        //writing-mode: vertical-rl;
         display: flex;
-        //flex-direction: row-reverse;
-        //justify-content: space-evenly;
         background-color: v.$amarilloClaro;
         .navbarElemento{
             text-align: center;
@@ -22,7 +17,7 @@
             margin: 0;
             
             font-size: 2.3rem;
-            color: v.$grisoscuro;
+            color: v.$grisOpaco;
             font-weight: bold;
             &:hover{
                 cursor: pointer;
@@ -30,7 +25,9 @@
         }
         .seleccionado{
             @extend .navbarElemento;
-            background-color: v.$rojo;
+            background-color: v.$grisoscuro;
+            color: v.$grisclaro;
+            // text-shadow:  1px 1px 3px v.$amarillo;
         }
     }
 }
@@ -49,25 +46,6 @@
             display: flex;
             flex-direction: row-reverse;
             //justify-content: space-evenly;
-    
-            .navbarElemento{
-                text-align: center;
-                width: 100%;
-                height: 100%;
-                // border: none;
-                padding: 0 1rem;
-                color: v.$grisclaro;
-                font-weight: bold;
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            .seleccionado{
-                @extend .navbarElemento;
-                background-color: v.$amarillo;
-                color: v.$rojo;
-                // text-shadow:  1px 1px 3px v.$amarillo;
-            }
         }
     }
 }

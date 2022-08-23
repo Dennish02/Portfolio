@@ -13,8 +13,8 @@ export default function Sidebar() {
     alt='Hesler Foto'
     />
     <div className='perfil-texto'>
-        <h2>Hi there!</h2>
-        <h3>I'm <span className='nombre'>Dennis Hesler</span></h3>
+        <h2 className='hola'>Hi there!</h2>
+        <h3 className='ubi' >I'm <span className='nombre'>Dennis Hesler</span></h3>
         <p className='carrera'>Full Stack Developer</p>
         <div className='ubicacion'>
           <svg xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function Sidebar() {
             <circle cx="12" cy="11" r="3" />
             <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
           </svg>
-          <p>Misiones, Argentina</p>
+          <p className='ubi' >Misiones, Argentina</p>
         </div>
         
     </div>

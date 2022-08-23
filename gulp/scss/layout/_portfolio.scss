@@ -23,7 +23,10 @@
             @include m.borderRadius;
             padding: 1rem;
             margin: 0 auto;
+            .subtitulo{
+                font-size: 1.2rem;
 
+            }
             img {
                 
                 &:hover {
@@ -33,12 +36,12 @@
                 }
             }
 
-            p {
-                font-size: 1.2rem;
-            }
-
             &:hover {
                 background-color: v.$grisoscuro;
+                .subtitulo{
+                    color: v.$grisclaro;
+    
+                }
             }
 
 

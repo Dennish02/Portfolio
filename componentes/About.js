@@ -73,7 +73,7 @@ export default function About() {
         <p>Problem Solving</p>
         <p>Comunication</p>
       </div>
-      <h2>Studying</h2>
+      <h2>Studing</h2>
       <div className='TechnicalSkills'>        
         <p>TypeScript</p>
         <p>Docker</p>
