@@ -31,7 +31,10 @@
 
     margin-top: 2rem;
     border-bottom: solid 1px v.$grisclaro;
-
+    background-color: v.$amarilloClaro;
+    color: v.$grisclaro;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
     @include m.desktop {
         display: flex;
         justify-content: flex-start;

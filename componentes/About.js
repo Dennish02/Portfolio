@@ -9,7 +9,7 @@ export default function About() {
         <Image
          width={50}
          height={25}
-         src='/assets/image/pxsol.png'
+         src='/assets/image/pxsol1.png'
          />
          
       </div>
