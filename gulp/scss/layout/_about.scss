@@ -26,3 +26,17 @@
 .preguntas {
     color: v.$azulOscuro;
 }
+
+.trabajo {
+
+    margin-top: 2rem;
+    border-bottom: solid 1px v.$grisclaro;
+
+    @include m.desktop {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}

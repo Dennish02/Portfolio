@@ -1,7 +1,18 @@
+import Image from 'next/image'
+
 
 export default function About() {
   return (
     <div>
+      <div className='trabajo'>
+        <p>I'm working as a Front-End in </p>
+        <Image
+         width={50}
+         height={25}
+         src='/assets/image/pxsol.png'
+         />
+         
+      </div>
       <h1>ABOUT ME</h1>
       <article>
       <h3 className="preguntas">Who I am? </h3>
