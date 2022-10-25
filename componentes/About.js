@@ -4,7 +4,8 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div>
-      <div className='cont-trabajo'>
+      <section className='cont-trabajo'>
+      <h2>Work Experience</h2>
         <div className='trabajo'>
           <p>I'm working as a Front-End in </p>
           <Image
@@ -26,6 +27,16 @@ export default function About() {
           </div>
           <div className='cont-2'>
             <div className='fecha-work'>
+            <small className='start'>01/06/2022</small>
+            <small className='end'>09/09/2022</small>
+            </div>
+            
+            <div className='work henry'>
+              <p className='text-work'>Henry</p>
+            </div>
+          </div>
+          <div className='cont-3'>
+            <div className='fecha-work'>
             <small className='start'>01/10/2022</small>
             <small className='end'>actuality</small>
             </div>
@@ -36,7 +47,7 @@ export default function About() {
           </div>
 
         </div>
-      </div>
+      </section>
       <h1>ABOUT ME</h1>
       <article>
       <h3 className="preguntas">Who I am? </h3>
