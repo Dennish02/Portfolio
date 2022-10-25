@@ -16,33 +16,40 @@ export default function About() {
         </div>
         <div className='linea-tiemp'>
           <div className='cont-1'>
+            <div className='cont-pipe-date'>
             <div className='fecha-work'>
-            <small className='start'>01/11/2021</small>
-            <small className='end'>02/09/2022</small>
-            </div>
-            
+            <small className='start'>Nov-2021</small>
+            </div> 
             <div className='work free'>
-              <p className='text-work'>FreeLance</p>
+              <p title='Full Stack Developer' className='text-work'>FreeLance</p>
+            </div>
             </div>
           </div>
           <div className='cont-2'>
+          <div className='cont-pipe-date'>
+
+          
             <div className='fecha-work'>
-            <small className='start'>01/06/2022</small>
-            <small className='end'>09/09/2022</small>
+            <small className='start'>Jul-2022</small>
             </div>
             
             <div className='work henry'>
-              <p className='text-work'>Henry</p>
+              <p title='Teaching Assistant in Henry' className='text-work'>Henry</p>
+            </div>
             </div>
           </div>
           <div className='cont-3'>
+          <div className='cont-pipe-date'>
+
+         
             <div className='fecha-work'>
-            <small className='start'>01/10/2022</small>
-            <small className='end'>actuality</small>
+            <small className='start'>Oct-2022</small>
+            
             </div>
             
             <div className='work pxsol'>
-              <p className='text-work'>Pxsol</p>
+              <p title='Front-End Developer in Pxsol ' className='text-work'>Pxsol</p>
+            </div>
             </div>
           </div>
 
