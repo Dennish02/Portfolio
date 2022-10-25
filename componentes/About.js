@@ -4,14 +4,38 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div>
-      <div className='trabajo'>
-        <p>I'm working as a Front-End in </p>
-        <Image
-         width={50}
-         height={25}
-         src='/assets/image/pxsol1.png'
-         />
-         
+      <div className='cont-trabajo'>
+        <div className='trabajo'>
+          <p>I'm working as a Front-End in </p>
+          <Image
+            width={50}
+            height={25}
+            src='/assets/image/pxsol1.png'
+          />
+        </div>
+        <div className='linea-tiemp'>
+          <div className='cont-1'>
+            <div className='fecha-work'>
+            <small className='start'>01/11/2021</small>
+            <small className='end'>02/09/2022</small>
+            </div>
+            
+            <div className='work free'>
+              <p className='text-work'>FreeLance</p>
+            </div>
+          </div>
+          <div className='cont-2'>
+            <div className='fecha-work'>
+            <small className='start'>01/10/2022</small>
+            <small className='end'>actuality</small>
+            </div>
+            
+            <div className='work pxsol'>
+              <p className='text-work'>Pxsol</p>
+            </div>
+          </div>
+
+        </div>
       </div>
       <h1>ABOUT ME</h1>
       <article>

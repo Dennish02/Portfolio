@@ -43,3 +43,38 @@
     }
 
 }
+.linea-tiemp{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0;
+    .cont-1{
+        flex: 0 60%;
+    }
+    .cont-2{
+        flex: 1;
+    }
+    .fecha-work{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        small{
+            padding: 0;
+            margin: 0;
+            color: v.$grisOpaco;
+        }
+    }
+    .work{
+        padding: 0 1rem;
+        color: v.$grisclaro;
+        border-radius: 0.5rem;
+        p{
+            margin: 0;
+        }
+    }
+    .free{
+        background-color: v.$grisoscuro;
+    }
+    .pxsol{
+        background-color: v.$rojo;
+    }
+}
