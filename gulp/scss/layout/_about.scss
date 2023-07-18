@@ -9,7 +9,7 @@
 
     p {
         background-color: v.$grisoscuro;
-        box-shadow: 3px 6px 14px 0px rgba(58,58,58,0.36);
+        box-shadow: 3px 6px 14px 0px rgba(58, 58, 58, 0.36);
         color: v.$grisclaro;
         font-weight: 700;
         padding: 1rem;
@@ -17,7 +17,8 @@
         text-align: center;
         margin: 0;
     }
-    .years{
+
+    .years {
         color: v.$amarillo;
         font-size: 1.2rem;
     }
@@ -35,6 +36,7 @@
     color: v.$grisclaro;
     padding: 0 2rem;
     border-radius: 0.5rem;
+
     @include m.desktop {
         display: flex;
         justify-content: flex-start;
@@ -43,19 +45,23 @@
     }
 
 }
-.linea-tiemp{
+
+.linea-tiemp {
     display: flex;
     padding: 2rem 0;
     max-width: 100vw;
-    .cont-1{
-        flex:1 5%;
+
+    .cont-1 {
+        flex-basis: 25%;
         display: flex;
         justify-content: baseline;
         align-items: flex-end;
-        .cont-pipe-date{
+
+        .cont-pipe-date {
             flex: 1;
         }
-        &::before{
+
+        &::before {
             content: '';
             background-repeat: no-repeat;
             display: block;
@@ -64,18 +70,21 @@
             background-image: url('/assets/image/inicio.png');
             background-size: 2rem;
             background-position: center center;
-            
+
         }
     }
-    .cont-2{
-        flex: 1 1%;
+
+    .cont-2 {
+        flex-basis: 20%;
         display: flex;
         justify-content: baseline;
         align-items: flex-end;
-        .cont-pipe-date{
+
+        .cont-pipe-date {
             flex: 1;
         }
-        &::before{
+
+        &::before {
             content: '';
             background-repeat: no-repeat;
             display: block;
@@ -84,19 +93,22 @@
             background-image: url('/assets/image/intermedio.png');
             background-size: 2.8rem;
             background-position: center center;
-            
+
         }
 
     }
-    .cont-3{
+
+    .cont-3 {
         flex: 1;
         display: flex;
         justify-content: baseline;
         align-items: flex-end;
-        .cont-pipe-date{
+
+        .cont-pipe-date {
             flex: 1;
         }
-        &::before{
+
+        &::before {
             content: '';
             background-repeat: no-repeat;
             display: block;
@@ -105,17 +117,18 @@
             background-image: url('/assets/image/intermedio.png');
             background-size: 2.8rem;
             background-position: center center;
-            
+
         }
     }
-    .fecha-work{
-        
-        @include m.desktop{
+
+    .fecha-work {
+
+        @include m.desktop {
             display: flex;
-        justify-content: space-between;
+            justify-content: space-between;
         }
-        
-        small{
+
+        small {
             display: block;
             padding: 0;
             margin: 0;
@@ -123,23 +136,28 @@
             filter: brightness(60%);
         }
     }
-    .work{
+
+    .work {
         padding: 0 0.5rem;
         color: v.$grisclaro;
         border-radius: 0.5rem;
-        p{
+
+        p {
             margin: 0;
             width: fit-content;
         }
     }
-    .free{
+
+    .free {
         background-color: v.$grisoscuro;
     }
-    .henry{
+
+    .henry {
         background-color: v.$amarillo2;
         color: v.$grisoscuro;
     }
-    .pxsol{
+
+    .pxsol {
         background-color: v.$rojo;
     }
 }
