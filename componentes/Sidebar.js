@@ -11,6 +11,7 @@ export default function Sidebar() {
     width={300}
     height={300}
     alt='Hesler Foto'
+    style={{borderRadius: '8px'}}
     />
     <div className='perfil-texto'>
         <h2 className='hola'>Hi there!</h2>
