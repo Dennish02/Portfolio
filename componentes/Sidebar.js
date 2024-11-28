@@ -7,7 +7,7 @@ export default function Sidebar() {
      
     <aside className='perfil'>
     <Image
-    src='/assets/image/hesler.png'
+    src='/assets/image/mine.jpg'
     width={300}
     height={300}
     alt='Hesler Foto'
