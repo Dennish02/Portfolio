@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import TechnicalSkills from './skills/TechnicalSkills'
+import Studing from './skills/Studing'
 
 
 export default function About() {
@@ -76,34 +78,7 @@ export default function About() {
         </p>
 
       </article>
-      <h2>Technical Skills</h2>
-      <div className='TechnicalSkills'>
-        <p>Material UI <small className="years">2+ year</small></p>
-        <p>Expo <small className="years">2+ year</small></p>
-        <p>React Native <small className="years">2+ year</small></p>
-        <p>Pusher <small className="years">2+ year</small></p>
-        <p>TypeScript <small className="years">2+ year</small></p>
-        <p>CSS3 <small className="years">5+ years</small></p>
-        <p>HTML5 <small className="years">5+ years</small></p>
-        <p>React.Js <small className="years">3+ year</small></p>
-        <p>Redux.Js <small className="years">3+ year</small></p>
-        <p>Next.Js <small className="years">2+ year</small></p>
-        <p>JavaScript <small className="years">4+ years</small></p>
-        <p>PHP <small className="years">3+ year</small></p>
-        <p>SQL <small className="years">1 year</small></p>
-        <p>MySQL <small className="years">1 year</small></p>
-        <p>Git <small className="years">2 year</small></p>
-        <p>Sass <small className="years">3+ years</small></p>
-        <p>Gulp <small className="years">3+ years</small></p>
-        <p>JWT <small className="years">3+ year</small></p>
-        <p>Firebase <small className="years">1 year</small></p>
-        <p>PostgresSQL <small className="years">4 year</small></p>
-        <p>Express.js <small className="years">2 year</small></p>
-        <p>MongoDb <small className="years">3+ year</small></p>
-        <p>Illustrator <small className="years">3 years</small></p>
-        <p>Photoshop <small className="years">3 years</small></p>
-        <p>Jest <small className="years">1 year</small> </p>
-      </div>
+      <TechnicalSkills />
       <h2>Soft Skill</h2>
       <div className='TechnicalSkills'>
         <p>Dedication</p>
@@ -115,15 +90,7 @@ export default function About() {
         <p>Problem Solving</p>
         <p>Comunication</p>
       </div>
-      <h2>Studing</h2>
-      <div className='TechnicalSkills'>
-
-        <p>Docker</p>
-
-        <p>GraphQL</p>
-
-        <p>Laravel</p>
-      </div>
+  <Studing />
     </div>
   )
 }
