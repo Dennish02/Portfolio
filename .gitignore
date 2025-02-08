@@ -33,3 +33,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#packaging
+/.nuxt
+/dist
+yarn-error.log
+yarn.lock
